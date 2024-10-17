@@ -55,7 +55,7 @@ Machines Virtuelles (VM) : Permettent d'exécuter plusieurs systèmes d'exploita
 
 La **conteneurisation** avec **Docker** et l'orchestration avec **Kubernetes** ont émergé comme solutions modernes à ces problèmes. 
 
-### Conteneurisation 
+#### Conteneurisation 
 La **conteneurisation** permet de créer des conteneurs légers qui encapsulent le code et ses dépendances, garantissant que l'application fonctionne de manière identique quel que soit l'environnement.
 
 **Avantages**:
@@ -66,7 +66,7 @@ La **conteneurisation** permet de créer des conteneurs légers qui encapsulent 
 
 Les conteneurs sont légers, rapides à déployer, et chaque machine peut en héberger un grand nombre. Un **moteur de conteneur** (comme Docker Engine) gère leur exécution et alloue les ressources nécessaires.
 
-### Orchestration avec Kubernetes
+#### Orchestration avec Kubernetes
 Kubernetes orchestre et surveille les conteneurs à grande échelle. Il gère automatiquement le déploiement, la mise à disposition des ressources, et la gestion des conteneurs dans un cluster de machines (ou nœuds). Il assure la haute disponibilité et la mise à l'échelle automatique. Des agents locaux (kubelets) surveillent l'état des conteneurs sur chaque machine et reportent à l'**API serveur** (intelligence centrale), qui prend les décisions de gestion des ressources.
 
 **Composants clés de l'orchestration**:
